@@ -76,6 +76,9 @@
       "prettier",
       "prettier/react"
     ],
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    },
     "plugins": [
       "prettier"
     ],
