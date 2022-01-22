@@ -13,7 +13,7 @@ export default ({ children }: { children: ReactNode }) => {
       <SideMenuBar />
       <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
         <Toolbar />
-        {children}
+        <div className="pd20">{children}</div>
       </Box>
     </Box>
   );

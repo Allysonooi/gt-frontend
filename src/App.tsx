@@ -7,9 +7,10 @@ export default () => {
   return (
     <Router>
       <Switch>
-        {routes.map(({ path, component }) => (
+        {routes.map(({ label, path, component }) => (
           <Route
             exact
+            key={`route-${label}`}
             path={path}
             render={() => <MainLayout>{component}</MainLayout>}
           />

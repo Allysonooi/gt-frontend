@@ -26,8 +26,6 @@ export default () => {
             letterSpacing: 1.5,
           }}
         />
-
-        <Divider />
       </Toolbar>
     </AppBar>
   );

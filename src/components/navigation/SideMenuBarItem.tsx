@@ -16,6 +16,7 @@ export default () => {
         {routes.map(({ label, path, icon, shownOnNavBar }) =>
           shownOnNavBar ? (
             <ListItemButton
+              key={`itemButton-${label}`}
               onClick={() => {
                 history.push(path);
               }}
