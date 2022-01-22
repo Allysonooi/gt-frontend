@@ -12,24 +12,30 @@ code {
     monospace;
 }
 
-li {
-  font-size: 0.9rem;
-}
-
-.pb20 {
-  padding-bottom: 20px;
-}
-
-.pd20 {
-  padding: 20px;
-}
-
 .MuiBox-root {
   height: 100vh;
 }
 
 .MuiTypography-h5 {
   font-weight: 500 !important;
+}
+
+/* ------- TITLE ------- */
+
+.pb20 {
+  padding-bottom: 10px;
+}
+
+/* ------- MAIN LAYOUT ------- */
+
+.pd20 {
+  padding: 20px;
+}
+
+/* ------- HOME PAGE ------- */
+
+li {
+  font-size: 0.9rem;
 }
 
 /* ------- GENERAL FORM ------- */
