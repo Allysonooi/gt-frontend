@@ -1,4 +1,3 @@
-import React from 'react';
 import { useHistory } from 'react-router-dom';
 import Box from '@mui/material/Box';
 import List from '@mui/material/List';

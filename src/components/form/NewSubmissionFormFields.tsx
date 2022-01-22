@@ -1,4 +1,3 @@
-import React from 'react';
 import { useForm } from 'react-hook-form';
 import { IFormData } from 'types/form';
 import { errorMessages } from 'constants/errorMessages';

@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import MainLayout from 'components/layout/MainLayout';
 import routes from 'constants/routes';

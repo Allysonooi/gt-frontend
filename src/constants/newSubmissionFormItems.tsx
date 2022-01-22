@@ -1,4 +1,3 @@
-import React from 'react';
 import { IFormItem } from 'types/form';
 
 const newSubmissionFormItems: IFormItem[] = [
