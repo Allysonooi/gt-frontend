@@ -11,7 +11,10 @@ export default ({ children }: { children: ReactNode }) => {
       <CssBaseline />
       <TopBar />
       <SideMenuBar />
-      <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
+      <Box
+        component="main"
+        sx={{ flexGrow: 1, p: 3, backgroundColor: '#f5f5f5' }}
+      >
         <Toolbar />
         <div className="pd20">{children}</div>
       </Box>

@@ -13,6 +13,7 @@ export default () => {
 
   return (
     <form
+      className="newSubmissionForm"
       onSubmit={handleSubmit((data) => {
         alert(JSON.stringify(data));
       })}

@@ -6,7 +6,7 @@ import PublishedWithChangesIcon from '@mui/icons-material/PublishedWithChanges';
 import Home from 'pages/Home';
 import AddFeedback from 'pages/AddFeedback';
 import SubmittedFeedback from 'pages/SubmittedFeedback';
-import ViewHistory from 'pages/ViewHistory';
+import ViewHistory from 'pages/ViewFeedback';
 import { IRoute } from 'types/routes';
 
 const routes: IRoute[] = [

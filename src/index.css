@@ -20,12 +20,15 @@ li {
   padding: 20px;
 }
 
-/* ------- FORM ------- */
-
-form {
-  max-width: 700px;
-  /* margin: 0 auto; */
+.MuiBox-root {
+  height: 100vh;
 }
+
+.MuiTypography-h5 {
+  font-weight: 500 !important;
+}
+
+/* ------- GENERAL FORM ------- */
 
 form p {
   color: #d32f2f;
@@ -38,8 +41,14 @@ form p::before {
   content: '⚠ ';
 }
 
-form input,
-form textarea {
+/* ------- ADD SUBMISSION FORM ------- */
+
+.newSubmissionForm {
+  max-width: 700px;
+}
+
+.newSubmissionForm input,
+.newSubmissionForm textarea {
   display: block;
   box-sizing: border-box;
   width: 100%;
@@ -50,7 +59,7 @@ form textarea {
   font-size: 14px;
 }
 
-form label {
+.newSubmissionForm label {
   line-height: 2;
   text-align: left;
   display: block;
@@ -60,7 +69,7 @@ form label {
   font-weight: 200;
 }
 
-form input[type='submit'] {
+.newSubmissionForm input[type='submit'] {
   background: #009688;
   color: white;
   text-transform: uppercase;
@@ -72,11 +81,57 @@ form input[type='submit'] {
   letter-spacing: 10px;
 }
 
-form input[type='submit']:hover {
+.newSubmissionForm input[type='submit']:hover {
   background: #00695f;
 }
 
-form input[type='submit']:active {
+.newSubmissionForm input[type='submit']:active {
+  transition: 0.3s all;
+  transform: translateY(3px);
+  border: 1px solid transparent;
+  opacity: 0.8;
+}
+
+/* ------- VIEW PAST SUBMISSION  ------- */
+
+.viewHistoryForm input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #b0bec5;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.viewHistoryForm label {
+  line-height: 2;
+  text-align: left;
+  display: block;
+  margin-bottom: 7px;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.viewHistoryForm input[type='submit'] {
+  background: #009688;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 54px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 5px;
+}
+
+.viewHistoryForm input[type='submit']:hover {
+  background: #00695f;
+}
+
+.viewHistoryForm input[type='submit']:active {
   transition: 0.3s all;
   transform: translateY(3px);
   border: 1px solid transparent;

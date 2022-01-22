@@ -1,7 +1,7 @@
 import React from 'react';
 import { IFormItem } from 'types/form';
 
-const formItems: IFormItem[] = [
+const newSubmissionFormItems: IFormItem[] = [
   {
     label: 'Name',
     keyName: 'name',
@@ -29,4 +29,4 @@ const formItems: IFormItem[] = [
   },
 ];
 
-export default formItems;
+export default newSubmissionFormItems;
