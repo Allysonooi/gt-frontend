@@ -1,10 +1,11 @@
 import Typography from '@mui/material/Typography';
-import Title from 'components/styled/Title';
 
 export default () => {
   return (
     <>
-      <Title>Welcome to the Feedback Portal!</Title>
+      <Typography variant="h5" className="pb20">
+        Welcome to the Feedback Portal!
+      </Typography>
       <Typography variant="subtitle1">
         In this portal, there are a couple of actions available as seen below in
         the bulletin.

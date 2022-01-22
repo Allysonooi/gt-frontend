@@ -1,10 +1,12 @@
-import Title from 'components/styled/Title';
 import NewSubmissionFormFields from 'components/form/NewSubmissionFormFields';
+import Typography from '@mui/material/Typography';
 
 export default () => {
   return (
     <>
-      <Title>Add New Feedback</Title>
+      <Typography variant="h5" className="pb20">
+        Add New Feedback
+      </Typography>
       <NewSubmissionFormFields />
     </>
   );
