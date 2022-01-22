@@ -29,7 +29,7 @@ export default () => {
       <label>Agency Name (Optional)</label>
       <input {...register('agencyName', { required: false })} />
       <label>Feedback</label>
-      <input {...register('feedback', { required: true })} />
+      <textarea {...register('feedback', { required: true })} />
       {errors.feedback && <p>{errorMessages.invalidInput}</p>}
 
       <input type="submit" />

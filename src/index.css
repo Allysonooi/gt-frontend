@@ -38,7 +38,8 @@ form p::before {
   content: '⚠ ';
 }
 
-form input {
+form input,
+form textarea {
   display: block;
   box-sizing: border-box;
   width: 100%;

@@ -1,9 +1,7 @@
 import React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
-// import Typography from '@mui/material/Typography';
 import GradingOutlinedIcon from '@mui/icons-material/GradingOutlined';
-import Divider from '@mui/material/Divider';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 
