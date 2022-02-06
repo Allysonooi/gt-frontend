@@ -1,7 +1,7 @@
 import { useForm } from 'react-hook-form';
 import Grid from '@mui/material/Grid';
 import { errorMessages } from 'constants/errorMessages';
-import { ITableFormData } from 'types/form';
+import { TableFormData } from 'types/form';
 
 // TODO: Form logic can be more efficiently coded. E.g Controller
 export default (props: { handleViewSubmissionForm: Function }) => {
@@ -9,7 +9,7 @@ export default (props: { handleViewSubmissionForm: Function }) => {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm<ITableFormData>();
+  } = useForm<TableFormData>();
   const { handleViewSubmissionForm } = props;
 
   return (

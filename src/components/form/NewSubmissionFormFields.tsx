@@ -1,5 +1,5 @@
 import { useForm } from 'react-hook-form';
-import { IFormData } from 'types/form';
+import { FormData } from 'types/form';
 import { errorMessages } from 'constants/errorMessages';
 import { saveSubmissions } from 'utils/axiosCall';
 
@@ -9,7 +9,7 @@ export default () => {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm<IFormData>();
+  } = useForm<FormData>();
 
   return (
     <form

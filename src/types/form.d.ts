@@ -1,18 +1,18 @@
-export interface IFormData {
+export type FormData = {
   name: string;
   email: string;
   contactNo: string;
   agencyName: string;
   feedback: string;
-}
+};
 
-export interface IFormItem {
+export type FormItem = {
   label: string;
   keyName: string;
   required: boolean;
-}
+};
 
-export interface ITableFormData {
+export type TableFormData = {
   email: string;
   contactNo: string;
-}
+};

@@ -1,6 +1,6 @@
-import { IFormItem } from 'types/form';
+import { FormItem } from 'types/form';
 
-const newSubmissionFormItems: IFormItem[] = [
+const newSubmissionFormItems: FormItem[] = [
   {
     label: 'Name',
     keyName: 'name',
