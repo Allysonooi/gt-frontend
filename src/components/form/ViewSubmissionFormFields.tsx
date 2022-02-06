@@ -4,18 +4,19 @@ import { errorMessages } from 'constants/errorMessages';
 import { ITableFormData } from 'types/form';
 
 // TODO: Form logic can be more efficiently coded. E.g Controller
-export default () => {
+export default (props: { handleViewSubmissionForm: Function }) => {
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm<ITableFormData>();
+  const { handleViewSubmissionForm } = props;
 
   return (
     <form
       className="viewHistoryForm"
       onSubmit={handleSubmit((data) => {
-        alert(JSON.stringify(data));
+        handleViewSubmissionForm(data);
       })}
     >
       <Grid container spacing={5}>

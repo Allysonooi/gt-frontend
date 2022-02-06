@@ -1,7 +1,7 @@
 export interface IFormData {
   name: string;
   email: string;
-  contactNo: Number;
+  contactNo: string;
   agencyName: string;
   feedback: string;
 }
@@ -14,5 +14,5 @@ export interface IFormItem {
 
 export interface ITableFormData {
   email: string;
-  contactNo: Number;
+  contactNo: string;
 }

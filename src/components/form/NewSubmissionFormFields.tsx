@@ -1,6 +1,7 @@
 import { useForm } from 'react-hook-form';
 import { IFormData } from 'types/form';
 import { errorMessages } from 'constants/errorMessages';
+import { saveSubmissions } from 'utils/axiosCall';
 
 // TODO: Form logic can be more efficiently coded. E.g Controller
 export default () => {
@@ -14,7 +15,7 @@ export default () => {
     <form
       className="newSubmissionForm"
       onSubmit={handleSubmit((data) => {
-        alert(JSON.stringify(data));
+        saveSubmissions(data);
       })}
     >
       <label>Name</label>
